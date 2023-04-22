@@ -1,0 +1,4 @@
+.messageAvatar {
+  background-image: url("avatar.png");
+  background-size: contain;
+}

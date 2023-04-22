@@ -1,0 +1,83 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@air/react-drag-to-select": "^5.0.5",
+    "@dnd-kit/core": "^6.0.5",
+    "@dnd-kit/sortable": "^7.0.1",
+    "@emoji-mart/data": "^1.1.2",
+    "@emoji-mart/react": "^1.1.1",
+    "@excalidraw/excalidraw": "^0.14.2",
+    "@radix-ui/react-checkbox": "^0.1.5",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-typist": "^2.0.3",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.11.3",
+    "emoji-mart": "^5.5.0",
+    "escape-html": "^1.0.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.4.3",
+    "react-scripts": "5.0.1",
+    "react-typist": "^2.0.5",
+    "react-virtuoso": "^4.2.2",
+    "recharts": "^2.1.8",
+    "slate": "^0.94.0",
+    "slate-history": "^0.66.0",
+    "slate-hyperscript": "^0.77.0",
+    "slate-react": "^0.82.2",
+    "ts-pattern": "^3.3.4",
+    "typescript": "^4.5.3",
+    "web-vitals": "^2.1.2"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/{spec,test}.{js,jsx,ts,tsx}"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@testing-library/dom": "^9.2.0",
+    "@types/escape-html": "^1.0.2",
+    "@types/prop-types": "^15",
+    "@types/react-virtualized-auto-sizer": "^1.0.1",
+    "@types/react-window": "^1.8.5",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.24"
+  }
+}

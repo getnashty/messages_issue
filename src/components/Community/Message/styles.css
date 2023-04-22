@@ -1,0 +1,12 @@
+.messageContainer__expander:hover > div {
+  @apply bg-slate-300;
+}
+.messageContainer__expander:active > div {
+  @apply bg-slate-300;
+}
+.messageContainer:hover .messageContainer__menu {
+  display: flex;
+}
+.messageContainer:hover .messageContainer__safezone {
+  display: flex;
+}

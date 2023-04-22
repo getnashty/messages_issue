@@ -1,0 +1,8 @@
+.cursorMenu__atSign > p {
+  margin-bottom: 2px;
+}
+
+/* The scrollbars show up in windows, so we should prevent that */
+.messageInput__editor::-webkit-scrollbar {
+  display: none;
+}

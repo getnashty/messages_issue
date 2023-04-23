@@ -500,6 +500,7 @@ export function Messages({
           totalCount={messagesWithoutCollapsed.length}
           itemContent={idx => <Row index={idx} />}
           components={{ Footer, Header }}
+          defaultItemHeight={32}
           initialTopMostItemIndex={messagesWithoutCollapsed.length - 1}
         />
         {messagesWithoutCollapsed.length === 0 && (
